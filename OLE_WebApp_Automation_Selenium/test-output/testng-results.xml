@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2599" started-at="2019-07-20T20:40:20Z" finished-at="2019-07-20T20:40:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2599" started-at="2019-07-20T20:40:20Z" finished-at="2019-07-20T20:40:22Z">
+      <class name="tests.SearchFacebookAppTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchFacebookAppTest@4ae3c1cd]" name="startDriver" is-config="true" duration-ms="10213" started-at="2019-07-20T20:40:09Z" finished-at="2019-07-20T20:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="User_Can_Search_For_Facebook()[pri:2, instance:tests.SearchFacebookAppTest@4ae3c1cd]" name="User_Can_Search_For_Facebook" duration-ms="2337" started-at="2019-07-20T20:40:20Z" finished-at="2019-07-20T20:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Can_Search_For_Facebook -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchFacebookAppTest@4ae3c1cd]" name="screenshotOnFailure" is-config="true" duration-ms="4" started-at="2019-07-20T20:40:22Z" finished-at="2019-07-20T20:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_Can_Search_For_Facebook status=SUCCESS method=SearchFacebookAppTest.User_Can_Search_For_Facebook()[pri:2, instance:tests.SearchFacebookAppTest@4ae3c1cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.SearchFacebookAppTest@4ae3c1cd]" name="stopDriver" is-config="true" duration-ms="1311" started-at="2019-07-20T20:40:22Z" finished-at="2019-07-20T20:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SearchFacebookAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
